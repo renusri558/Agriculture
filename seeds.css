@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(241, 236, 236);
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-left:65px;
+    background-image:linear-gradient(to right,rgb(241, 236, 236),rgb(195, 192, 192));
+}
+.seed{
+    background-color:white;
+    border-radius:5%;
+    width:220px;
+    margin:25px;
+    box-shadow:5px 5px 5px 5px rgb(163, 172, 174);
+}
+
+img{
+    margin-left:20px;
+    width:80%;
+    height:57%;
+    object-fit:contain;   
+}
+
+dt{
+    margin-left:26px;
+    margin-bottom:6px;
+}
+
+dl{
+    color:rgb(57, 96, 83);
+}
+
+p{
+    margin-top:0;
+    margin-left:12px;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+dd{
+    margin-left:25px;
+}
+
+#cost{
+    color:crimson;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+#amazon{
+    justify-content: right;
+}

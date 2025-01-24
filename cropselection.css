@@ -1,0 +1,52 @@
+.cropline{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+ }
+ .eachcrop
+ {
+     padding:10px;
+ }
+ .eachcrop img
+ {
+     width:200px;
+     height:200px; 
+     border-radius:30px;
+ }
+ .eachcrop p{
+     text-align:center;
+     font-size:20px;
+ }
+ #addingcrops
+ {
+     display:flex;
+ }
+ #save:hover{
+     background-color: green;
+ }
+ #save a:hover
+ {
+     background-color:green;
+     color:white;
+ }
+ #cancel:hover
+ {
+     background-color:red;
+     color:white;
+ }
+ #save,#cancel
+ {
+    border:2px solid black;
+    font-size:large;
+    border-radius:34px;
+    padding:10px;
+ }
+ #buttons
+ {
+     display:flex;
+     justify-content:space-around;
+ }
+ #buttons #save a{
+     text-decoration:none;
+     color:black;
+ }

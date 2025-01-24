@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FERTILIZER CALCULATOR</title>
+    <link rel="stylesheet" href="fertilizercalc.css">
+    <script src="fertilizercalc.js"></script>
+</head>
+<body>
+    <u><h1 style="text-align:center; margin-bottom:30px;">FERTILIZER CALCULATOR</h1></u>
+    <h2 class="heading">CEREAL CROPS:</h2>
+<div class="entireblock">
+    <div id="cropselect">
+        <h5 style="font-size:25px;">select crops:</h5>
+        <select id="crop" name="crop">
+            <option value="rice">rice</option>
+            <option value="wheat">wheat</option>
+            <option value="maize">maize</option>
+            <option value="millet">millet</option>
+            <option value="cotton">cotton</option>
+            <option value="sugar cane">sugar cane</option>
+        </select>
+    </div>
+<div class="NPK">
+<div class="inrow"><h3>N</h3><input type="text" class="number" id="N" value="0"></div>
+<div class="inrow"><h3>P</h3><input type="text" class="number" id="P" value="0"></div>
+<div class="inrow"><h3>K</h3><input type="text" class="number" id="K" value="0"></div></div>
+<div class="plotsize">
+    <fieldset>
+        <legend><h2>PLOT SIZE :</h2></legend>
+    <div class="plot">
+  <h4>SIZE (in acres) </h4>
+    <input type="text"style="margin-top:20px;margin-left:10px;height:20px;" id="area">
+</div>
+<button class="btn" onclick="calculate1();">Calculate</button>
+</fieldset>
+</div>
+<div class="block" id="blocks">
+    <section class="sec sec1">
+        <h2>Urea</h2>
+        <p id="ureas">0 kg</p>
+    </section>
+    <section class="sec sec2">
+        <h2>SSP</h2>
+        <p id="ssps">0 kg</p>
+    </section>
+    <section class="sec sec3">
+        <h2>MOP</h2>
+        <p id="mops">0 kg</p>
+    </section>
+</div>
+</div>
+<h2 class="heading">VEGETABLES/FRUITS:</h2>
+<div class="entireblock">
+    <div id="cropselect">
+        <h5 style="font-size:25px;">select crops:</h5>
+        <select id="crop" name="crop">
+            <option value="apple">apple</option>
+            <option value="banana">banana</option>
+            <option value="mango">mango</option>
+            <option value="brinjal">brinjal</option>
+        </select>
+    </div>
+<h2 style="margin-left:20px;">N,P,K values/each tree:</h2>
+<div class="NPK">
+<div class="inrow"><h3>N</h3><input type="text" class="number" id="N2" value="0"></div>
+<div class="inrow"><h3>P</h3><input type="text" class="number" id="P2" value="0"></div>
+<div class="inrow"><h3>K</h3><input type="text" class="number" id="K2" value="0"></div></div>
+<div class="plotsize">
+    <fieldset>
+        <legend><h2>Trees:</h2></legend>
+    <div class="plot">
+  <h4>No. of Trees: </h4>
+    <input type="text"style="margin-top:20px;margin-left:10px;height:20px;" id="trees">
+</div>
+<button class="btn" onclick="calculate2();">Calculate</button>
+</fieldset>
+</div>
+<div class="block">
+    <section class="sec sec1">
+        <h2>Urea</h2>
+        <p id="ureas2">0 kg</p>
+    </section>
+    <section class="sec sec2">
+        <h2>SSP</h2>
+        <p id="ssps2">0 kg</p>
+    </section>
+    <section class="sec sec3">
+        <h2>MOP</h2>
+        <p id="mops2">0 kg</p>
+    </section>
+</div>
+</div>  
+</body>
+</html>
+
+  

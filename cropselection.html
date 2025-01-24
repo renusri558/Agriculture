@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGRICULTURE</title>
+    <link rel="stylesheet" href="cropselection.css">
+    <script src="cropselection.js"></script>
+</head>
+<body>
+    <h2>Select crops</h2>
+    <p style="font-size:20px;">select 5 crops exactly</p>
+    <div id="addingcrops"></div>
+    <div id="allcrops">
+    <div class="cropline cropline1">
+    <div class="eachcrop" onclick="addCrop('rice.jpg','rice',this)" ><img src="rice.jpg"/><p>RICE</p></div>
+    <div class="eachcrop" onclick="addCrop('banana.jpg','banana',this)"><img src="banana.jpg"/><p>BANANA</p></div>
+    <div class="eachcrop" onclick="addCrop('apple.jpg','apple',this)"><img src="apple.jpg"/><p>APPLE</p></div>
+    <div class="eachcrop" onclick="addCrop('brinjal.jpg','brinjal',this)"><img src="brinjal.jpg"/><p>BRINJAL</p></div>
+    <div class="eachcrop" onclick="addCrop('cotton.jpg','cotton',this)"><img src="cotton.jpg"/><p>COTTON</p></div>
+    </div>
+    <div class="cropline cropline2">
+    <div class="eachcrop" onclick="addCrop('maize.jpg','maize',this)"><img src="maize.jpg"/><p>MAIZE</p></div>
+    <div class="eachcrop" onclick="addCrop('mango.jpg','mango',this)"><img src="mango.jpg"/><p>MANGO</p></div>
+    <div class="eachcrop" onclick="addCrop('millet.jpg','millet',this)"><img src="millet.jpg"/><p>MILLET</p></div>
+    <div class="eachcrop" onclick="addCrop('sugarcane.jpg','rice',this)"><img src="sugarcane.jpg"/><p>SUGARCANE</p></div>
+    <div class="eachcrop" onclick="addCrop('wheat.jpg','wheat',this)"><img src="wheat.jpg"/><p>WHEAT</p></div>
+</div>
+</div>
+<div id="buttons">
+<button id="cancel" onclick="remove()">cancel</button>
+<button id="save"><a href="main.html">save</a></button>
+</div>
+</body>
+</html>

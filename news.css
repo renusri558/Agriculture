@@ -1,0 +1,51 @@
+section{
+    border:1px solid rgb(147, 142, 142);
+    margin:50px;
+    padding:30px;
+    border-radius:15px;
+    margin-right:150px;
+    margin-left: 200px;
+    
+}
+
+h1{
+    color:rgb(27, 52, 2);
+}
+
+body{
+    background-image:url("schemebg.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+#fcis{
+    background-color: rgb(236, 160, 132);
+}
+
+#yjks{
+    background-color: rgb(178, 135, 182); 
+}
+
+#aects{
+    background-color: rgb(136, 164, 87);
+}
+
+#rrs{
+    background-color:aquamarine;
+}
+
+#pmkmdy{
+    
+    background-color: rgb(233, 174, 96);
+}
+
+#pksn{
+    background-color: rgb(118, 185, 244);
+}
+
+#read{
+    position:absolute;
+    margin-top:600px;
+    margin-left:900px;
+}
